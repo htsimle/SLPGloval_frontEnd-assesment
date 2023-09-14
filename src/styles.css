@@ -1,0 +1,163 @@
+/* styles.css */
+
+.comment-section {
+  font-family: 'Poppins', sans-serif;
+}
+
+.comments {
+  margin-bottom: 20px;
+}
+
+.comment {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+}
+
+.user-avatar {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.comment-actions {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.like-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.like-button img {
+  width: 20px;
+  height: 20px;
+}
+
+.like-button.liked img {
+  filter: invert(23%) sepia(92%) saturate(7488%) hue-rotate(338deg) brightness(104%) contrast(102%);
+}
+
+.reply-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  margin-left: 10px;
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.reply {
+  margin-top: 10px;
+  padding: 10px;
+  background-color: #f1f1f1;
+  border: 1px solid #ccc;
+}
+
+.reply-text {
+  margin: 0;
+}
+
+.remove-reply {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+
+.remove-comment {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: red;
+  text-decoration: underline;
+}
+
+.add-comment form {
+  display: flex;
+  margin-top: 20px;
+}
+
+.add-comment input[type="text"] {
+  flex-grow: 1;
+  padding: 5px;
+}
+
+.add-comment button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-left: 10px;
+}
+
+.add-comment button:hover {
+  background-color: #ffffff48;
+}
+
+.comment-text {
+  margin-bottom: 10px;
+}
+.send-icon {
+  width: 20px;
+  height: 20px;
+}
+
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.comment-header {
+  display: flex;
+  align-items: center;
+}
+
+.comment-header h3 {
+  margin-left: 10px;
+}
+
+.reply {
+  margin-top: 10px;
+}
+
+.reply .comment-header {
+  align-items: center;
+}
+
+.reply .comment-header h3 {
+  margin-left: 10px;
+}
+
+.reply-text {
+  margin-top: 10px;
+}
+
+.add-comment-button {
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+.send-icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+}
